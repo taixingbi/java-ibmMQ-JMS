@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.ibm.mq:com.ibm.mq.allclient:9.1.0.10'
+    implementation 'javax.jms:javax.jms-api:2.0.1'
+}
+
+test {
+    useJUnitPlatform()
+}
