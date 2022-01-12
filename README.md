@@ -14,23 +14,3 @@ https://localhost:9443/ibmmq/console/login.html
 User: admin 
 Password: passw0rd
 ```
-
-### issue
-'2035' ('MQRC_NOT_AUTHORIZED')
-https://www.ibm.com/support/pages/2035-mqrcnotauthorized-wmq
-
-
-
-
-
-
-### saks
-```
-saks {
-hostname = "qa-mq-vip.saksdirect.com"
-port = 1414
-channel = "BMS.SCC.CHANNEL"
-queue-manager = "BMS"
-queue-name = "QK2.EMAIL.NOTIFICATION.QUEUE"
-}
-```
